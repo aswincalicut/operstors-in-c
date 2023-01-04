@@ -1,0 +1,103 @@
+1. ARITHMETICAL OPERATORS IN C
+
+There are two arithmetic operators in c 
+
+1.Binary 
+2.Unary
+
+1.Binary arithmeticals operators are
+
+-  is used for the substraction of the second value from the 1st one : eg: result=A-B=
+
++ Used for addition of two operators : eg : result=A+B=
+
+/ Used for division of numbers : eg : result=A+B=
+
+* Used for multiplication of numbers : eg : reslut=A*B=
+
+% The modulus operator and the reminder after the division of an intiger : eg : result=B%A=
+
+
+2.Unary arithmetical operators are
+
+— used for Decrease of the integer value by the decrement operator by one : eg : reslut=A–
+
+++ Used for increase of the integer value by the increment operator by one : eg : result=A++
+
+–  Unary minus : eg :result= -A
+
++  Unary plus : eg :result=+A
+
+
+2. RELATIONAL OPERATORS IN C
+
+There are 6 types of relational operators 
+
+1. Equal To
+2. Not Equal To
+3. Less Than
+4. Greater Than
+5. Less Than Or Equal To
+6. Greater Than Or Equal To
+
+
+3. LOGICAL OPERATORS IN C
+
+We have three major logical operators in the C language:
+
+1. Logical NOT (!) 
+2. Logical OR (||)
+3. Logical AND (&&)
+
+1. This type of operator returns true whenever the conditions that are under condition are not at all satisfied.In any bounted case it is
+   return false.For instance, the !p will return true if p is false, meaning, when p = 0.
+   
+
+2. This type of operator returns true even when both or even one of the conditions that are under consideration are satisfied.In any other
+   case it will return false. For instance, the p || q will return true when both or one of p and q are true (non-zero). It also returns to be true when p and q are true.
+
+
+3. This type of operator returns true when both the conditions that are under consideration happen to be satisfied.In any other case
+   it is bound to return false. For instance, the p && q will return true when both- p and q are true (non-zero).
+
+
+4. ASSIGNMENT OPERATORS IN C
+   
+ operators 	Operation Performed
+
+ =	     Simple assignment
+ *=	     Multiplication assignment
+ /=	     Division assignment
+ %=	     Remainder assignment
+ +=	     Addition assignment
+ -=	     Subtraction assignment
+ <<=	     Left-shift assignment
+ >>=	     Right-shift assignment
+ &=	     Bitwise-AND assignment
+ ^=	     Bitwise-exclusive-OR assignment
+ |=	     Bitwise-inclusive-OR assignment
+
+5. BIT WISE OPERATORS IN C
+
+  Bit wise operators are characters which represent actions to be performed on single bits
+
+   Operators	Meaning of operators
+&	Bitwise AND
+|	Bitwise OR
+^	Bitwise XOR
+~	Bitwise complement
+
+6. CONDITIONAL OPERATORS IN C
+
+   In the c programming language the operators are classified as unary,binary and ternary based on the number of operands they require
+   in c programming the conditional operators is the only ternary operator and it is also refered to as the ternary operator
+
+
+7.SHIFT OPERATOR IN C
+
+  It is a binary operator that requires two operands to shift or move the position of the bits to the left side and add zeroes to the empty 
+  space created at the right side after shifting the bits  
+
+  The bitwise shift operators are the right-shift operator (>>), which moves the bits of an integer or enumeration type expression to the right
+   and the left-shift operator (<<), which moves the bits to the left. 
+
